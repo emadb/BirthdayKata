@@ -1,0 +1,17 @@
+Problem: write a program that
+1.Loads a set of employee records from a flat file
+2.Sends a greetings email to all employees whose birthday is today
+The flat file is a sequence of records, separated by newlines; this are the first few lines:
+
+last_name, first_name, date_of_birth, email
+Doe, John, 1982/10/08, john.doe@foobar.com
+Ann, Mary, 1975/09/11, mary.ann@foobar.com
+The greetings email contains the following text:
+
+Subject: Happy birthday!
+
+Happy birthday, dear John!
+with the first name of the employee substituted for “John”
+
+An optional complication
+If you want to develop further the domain logic, you can take into account the special rule for people born on a 29th of February: they should be sent greetings on the 28th of February, except in leap years, when they will get their greetings on the 29th.
