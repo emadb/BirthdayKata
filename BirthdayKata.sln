@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotNetLombardia.BirthdayKata", "DotNetLombardia.BirthdayKata\DotNetLombardia.BirthdayKata.csproj", "{01E09EE4-726C-4861-97A1-9E30C5C14F1D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotNetLombardia.BirthdayKata.Tests", "DotNetLombardia.BirthdayKata.Tests\DotNetLombardia.BirthdayKata.Tests.csproj", "{FEC88427-AEE2-4479-B716-00F2A35D3222}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{01E09EE4-726C-4861-97A1-9E30C5C14F1D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{01E09EE4-726C-4861-97A1-9E30C5C14F1D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{01E09EE4-726C-4861-97A1-9E30C5C14F1D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{01E09EE4-726C-4861-97A1-9E30C5C14F1D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FEC88427-AEE2-4479-B716-00F2A35D3222}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FEC88427-AEE2-4479-B716-00F2A35D3222}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FEC88427-AEE2-4479-B716-00F2A35D3222}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FEC88427-AEE2-4479-B716-00F2A35D3222}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
