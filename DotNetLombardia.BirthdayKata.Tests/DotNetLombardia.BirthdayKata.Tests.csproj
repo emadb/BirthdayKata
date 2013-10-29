@@ -47,6 +47,12 @@
   <ItemGroup>
     <None Include="packages.config" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\DotNetLombardia.BirthdayKata\DotNetLombardia.BirthdayKata.csproj">
+      <Project>{01e09ee4-726c-4861-97a1-9e30c5c14f1d}</Project>
+      <Name>DotNetLombardia.BirthdayKata</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
